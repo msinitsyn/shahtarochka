@@ -67,7 +67,7 @@
 			<div class="header-bottom">
 				<div class="container">
 					<div class="row" style="height:35px;">
-						<div class="col-md-8 hidden-xs">
+						<div class="col-md-8 col-xs-12">
 							<ul class="contact-top animate fadeInLeft" style="padding:0;">
 								<?php if($option['address']!=''){?><li><strong><?php  _e('Адрес :  ','hotel-galaxy'); ?></strong><?php echo esc_attr($option['address']); ?></li><?php } ?>
 								<?php if($option['reservation_line']!=''){?><li><strong><?php _e('Линия резервирования :  ','hotel-galaxy'); ?></strong><?php echo esc_attr($option['reservation_line']); ?></li><?php } ?>
